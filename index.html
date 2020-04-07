@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trading View</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    
+    <link rel="stylesheet" href="css/main.css"></link>
+  </head>
+  <body>
+
+    <h1>Trading View</h1>
+    <p>This is a brief simple HTML page for this <a href="https://www.upwork.com/jobs/~0151a53e3c92237849" target="_blank">upwork project</a></p>
+
+    <div id="project-body">
+      <div id="form-box" class="clearfix">
+	<div id="form-left" class="flying left">
+	  <div id="judul">SCANNER SETTINGS</div>
+	  <div>
+	    <table>
+	      <tr>
+		<td>Bars Back</td>
+		<td><input id="barsBack" type="text" class="textinput" value="50"></td>
+		<td>Main Symbol</td>
+		<td><input id="mainSymbol" type="text" class="textinput" value="aapl"></td>
+	      </tr>
+	      <tr>
+		<td>Sorting</td>
+		<td><input type="text" class="textinput"></td>
+		<td>Stock List</td>
+		<td><input type="text" class="textinput"></td>
+	      </tr>	      
+	    </table>
+	  </div>
+	</div>
+	<div id="form-right" class="flying right">
+	  <div id="judul">CHART VISUAL SETTINGS</div>
+	  <div>
+	    <table>
+	      <tr>
+		<td>Charts in a row</td>
+		<td><input type="text" class="textinput"></td>
+		<td># Bars in Chart</td>
+		<td><input type="text" class="textinput"></td>
+	      </tr>
+	      <tr>
+		<td>Time Interval</td>
+		<td><input type="text" class="textinput"></td>
+		<td>Chart Height (px)</td>
+		<td><input type="text" class="textinput"></td>
+	      </tr>
+	      <tr>
+		<td># Charts</td>
+		<td><input type="text" class="textinput"></td>
+		<td colspan="2">&nbsp;</td>
+	      </tr>
+	    </table>
+	  </div>
+	</div>	
+      </div>
+
+      <div style="left:both;width:100%;"></div>
+      
+      <div id="button-box">
+	<button id="btnGo">GO</button>
+      </div>
+
+
+      <div id="result"></div>
+      
+    </div>
+    <script src="js/main.js"></script>    
+  </body>
+</html> 
